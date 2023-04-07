@@ -11,44 +11,134 @@
         padding: 0;
         list-style-type: none;
       }
-      table {
-        border-collapse: collapse;
+      #shop{
+        width: 500px;
+        height: 600px;
+        border: 1px solid black;
       }
     </style>
   </head>
   <body>
-    <table border>
-      <tr id="headr">
-        <th>
-          <input type="checkbox" />
-        </th>
-        <th>商品</th>
-        <th>单价</th>
-        <th>数量</th>
-        <th>小计</th>
-        <th>操作</th>
-      </tr>
-      <tr>
-        <td>
-            <input type="checkbox">
-        </td>
-        <td>
-            <img src="" alt="">
-        </td>
-        <td>
-            $
-        </td>
-        <td>
-            <span>-</span>
-            <span>+</span>
-        </td>
-        <td>
-            $
-        </td>
-        <td>
-          删除  
-        </td>
-      </tr>
-    </table>
+    <div id = 'shop_box'>
+      <div id="shop_area">
+        <ul>
+          <li>
+            <div>
+              <input type="checkbox" class="checkd">全选
+            </div>
+            <div class="shop_name_headr">
+              商品
+            </div>
+            <div class="shop_price_headr">
+              单价
+            </div>
+            <div class="shop_num_headr">
+              数量
+            </div>
+            <div class="shop_monye_headr">
+              小计
+            </div>
+            <div class="do_headr">
+              操作
+            </div>
+          </li>
+          <li>
+            <div>
+              <input type="checkbox" class="checkd">
+            </div>
+            <div class="shop_name">
+              <img src="" alt="">
+            </div>
+            <div class="shop_price">
+              text
+            </div>
+            <div class="shop_num">
+              <span class="num">1</span>
+              <span>+</span>
+              <span>-</span>
+            </div>
+            <div class="shop_monye">
+              monye
+            </div>
+            <div class="do">
+              do
+            </div>
+          </li>
+          <li>
+            <div>
+              <input type="checkbox" class="checkd">
+            </div>
+            <div class="shop_name">
+              <img src="" alt="">
+            </div>
+            <div class="shop_price">
+              text
+            </div>
+            <div class="shop_num">
+              <span class="num">1</span>
+              <span>+</span>
+              <span>-</span>
+            </div>
+            <div class="shop_monye">
+              monye
+            </div>
+            <div class="do">
+              do
+            </div>
+          </li>
+          <li>
+            <div>
+              <input type="checkbox" class="checkd">
+            </div>
+            <div class="shop_name">
+              <img src="" alt="">
+            </div>
+            <div class="shop_price">
+              text
+            </div>
+            <div class="shop_num">
+              <span class="num">1</span>
+              <span>+</span>
+              <span>-</span>
+            </div>
+            <div class="shop_monye">
+              monye
+            </div>
+            <div class="do">
+              do
+            </div>
+          </li>
+          <li>
+            <div>
+              <input type="checkbox" class="checkd">
+            </div>
+            <div class="shop_name">
+              <img src="" alt="">
+            </div>
+            <div class="shop_price">
+              text
+            </div>
+            <div class="shop_num">
+              <span class="num">1</span>
+              <span>+</span>
+              <span>-</span>
+            </div>
+            <div class="shop_monye">
+              monye
+            </div>
+            <div class="do">
+              do
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div id="foold">
+        <input type="checkbox">
+        <span class="delete">删除</span>
+        <span>已选商品数量<em>5</em>^</span>
+        <span>合计:￥<i>0.00</i></span>
+        <span class="result">结算</span>
+      </div>
+    </div>
   </body>
 </html>
